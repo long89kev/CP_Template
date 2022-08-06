@@ -13,6 +13,7 @@ using namespace std;
 #define pb push_back
 #define reset(a, val) memset(a, val, sizeof(a))
 #define SQR(a) (1LL)*(a)*(a)
+#define BIT(a) (1 << (a))
 #define sz(a) int(a.size())
 #define all(a) a.begin(), a.end()
 #define MAX 100050
@@ -49,13 +50,13 @@ using ulli = unsigned long long int;
 using ii = pair<int, int>;
 
 const int MOD = (int) 1e9 + 7;
+const int inf = (int) 1e9 + 7;
 
 /** END OF TEMPLATE **/
 
 ll times;
 
 void solve(){
-    
 }
 
 signed main(){
@@ -68,3 +69,4 @@ signed main(){
         times--;
     }
 }
+
