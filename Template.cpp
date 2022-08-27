@@ -11,14 +11,16 @@ using namespace std;
 #define FASTIO ios::sync_with_stdio(0);cin.tie(NULL);cout.tie(NULL)
 #define mp make_pair
 #define pb push_back
+#define fi first
+#define se second
 #define reset(a, val) memset(a, val, sizeof(a))
-#define SQR(a) (1LL)*(a)*(a)
-#define BIT(a) (1 << (a))
+#define SQR(a) (1LL)*(a)*(a) // a * a
+#define BIT(a) (1 << (a)) // 2^a
 #define sz(a) int(a.size())
 #define all(a) a.begin(), a.end()
-#define MAX 100050
+#define MAX 500500
 ///Read File
-void IOF(const string &NAME = ""){
+void setIO(const string &NAME = ""){
     if ((int) NAME.length() && fopen((NAME + ".inp").c_str(), "r")) {
         freopen((NAME + ".inp").c_str(), "r", stdin),
         freopen((NAME + ".out").c_str(), "w", stdout);
@@ -47,26 +49,30 @@ template<class X, class Y> bool ckmax(X &x, const Y &y) {
 using ll = long long;
 using lli = long long int;
 using ulli = unsigned long long int;
-using ii = pair<int, int>;
+using db = double;
+using fl = float;
+using pii = pair<int, int>;
+using pll = pair<ll, ll>;
+using mii = map<int, int>;
+using msi = map<string, int>;
 
-const int MOD = (int) 1e9 + 7;
+const int MOD = (int) 1e9 + 7; //998244353;
 const int inf = (int) 1e9 + 7;
-
+const ll INF = 1e18;
 /** END OF TEMPLATE **/
-
 ll times;
 
 void solve(){
+
 }
 
 signed main(){
     FASTIO;
-    IOF("test");
-    cin >> times;
-    //times = 1;
+    setIO("test");
+    //cin >> times;
+    times = 1;
     while(times > 0){
         solve();
         times--;
     }
 }
-
