@@ -63,7 +63,7 @@ const ll INF = 1e18;
 ll times;
 
 void solve(){
-
+    
 }
 
 signed main(){
